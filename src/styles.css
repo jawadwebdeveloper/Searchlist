@@ -1,0 +1,35 @@
+/* Container for the list and search input field */
+.container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Search input field */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* List of items */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Style for the filtered items */
+.filtered {
+    font-weight: bold;
+}
+
